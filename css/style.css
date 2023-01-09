@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: #f2eadf
+    
+}
+.container
+{
+    position: relative;
+    background-color: #fff;
+    height : 90vh;
+    width : 400px;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.15);
+}
+header{
+    position: relative;
+    background-color: #A555EC;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header_name
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em ;
+    /* border: black solid; */
+    font-weight: 200px;
+}
+
+header .header_icons
+{
+    /* display: flex; */
+    position: relative;
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+}
+header .header_icons a{
+    color: rgb(23, 22, 22);
+    display: flex;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.received
+{
+    display: inline-block;
+    padding: 0px 0px 0px 10px;
+    vertical-align: top;
+    width: auto;
+}
+.received_inbox
+{
+    width: 67%;
+}
+.received_inbox p
+{
+    background-color: rgb(232, 230, 230);
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px 5px;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.sent
+{
+    overflow: hidden;
+    margin: 0;
+    /* display: inline-block; */
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;
+    width: auto;
+}
+.sent_box
+{
+    float: left;
+    width: 46%;
+    margin-left: 40%;
+}
+.sent_box p
+{
+    background-color: rgb(195, 219, 248);
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+.container_footer{
+    position: relative;
+    background-color: #A555EC;
+    display: flex;
+    padding: 20px 5px;
+    justify-content: space-between;
+    align-items: center;   
+}
+.footer_icons
+{
+    position: relative;
+    display: flex;
+    /* top: 9px; */
+    gap: 35px;
+    text-decoration: none;
+}
+.footer_icons a{
+    color: rgb(23, 22, 22);
+    display: flex;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.txt_box
+{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    /* width: 0px; */
+}
+input[type="text"] {
+    width: 200px;
+}
+.send
+{
+    position: absolute;
+    right: 40px;
+    top: 9px;
+}
